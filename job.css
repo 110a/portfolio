@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Epilogue', sans-serif;
+}
+header {
+  padding-top: 16px;
+  background-color: #28293E;
+}
+.import{
+  background-color: #28293E;
+}
+.all-container{
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+.logo img {
+  margin-bottom: 15px;
+  margin-left: 5%;
+}
+.main-menu{
+  color: white;
+}
+.main-menu ul{
+  list-style-type: none;
+  display: flex;
+  margin-left: 22%;
+}
+.main-menu li{
+  margin-left: 120px;
+}
+.banner-text{
+  width: 50%;
+  color: white;
+  margin-left: 7%;
+  margin-top: 7%;
+}
+.banner-text h1{
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.banner-image{
+  display: flex;
+  margin-top: 5px;
+}
+.import{
+  display: flex;
+  align-items: center;
+}
+.main-menu a{
+  text-decoration: none;
+  color: white;
+}
+.banner-text div{
+  margin-top: 15px;
+}
+.banner-text a{
+  color: #31e0b5;
+}
+a{
+  text-decoration: none;
+}
+.second-container {
+  background-color:#FDF0E9;
+  padding-top: 100px;
+  padding-right: 136px;
+  padding-left: 136px;
+  padding-bottom: 100px;
+}
+/* .second-container{ */
+/* display: flex; */
+/* flex-wrap: wrap; */
+/* } */
+.service{
+  color: red;
+  font-size: 1.5rem;
+
+}
+.service{
+  text-align: center;
+  padding-top: 2%;
+}
+.help{
+  padding-top: 2%;
+  text-align: center;
+  font-size: 3rem;
+  color: #391400;
+  font-weight: bold;
+
+}
+.container-design{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+/*  margin-top: 10%;
+  margin-left: 10%;
+  color: #391400;*/
+
+}
+.design-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #EF6C57;
+  border-radius: 50%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design{
+  margin-left: 2%;
+}
+
+.container-agency{
+  line-height: 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+/*  margin-top: 1%;
+  margin-left:10%;*/
+}
+.container-learn{
+/*  margin-top: 1%;*/
+/*  margin-left: 10%;*/
+}
+.container-plus{
+  color: red;
+  font-size: 2.5rem;
+  box-shadow: 0px 3px 9px #39140014;
+}
+.container-plus{
+  text-align: center;
+  background-color: white;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 50%;
+}
+
+.container-development{
+  display: flex;
+  margin-top: 10%;
+}
+.development{
+  margin-left: 2%;
+  margin-top: 1%;
+  color: #391400;
+}
+.container-hier{
+  margin-top: 1%;
+  margin-left: -1%;
+}
+.container-box {
+  width: 50%;
+  border: 1px solid #F3D1BF;
+  padding: 48px;
+}
+/*.box-container {
+  width: 50%;
+  border: 0.5px solid black;
+}*/
+
+.plus-container{
+  align-items: center;
+  display: flex;
+}
+.container-learn{
+  margin-left: 20px;
+  color: #391400;
+}
+/*.container-box article  {
+  text-align: center;
+  align-items: center;
+}*/
+.container-box, .container-development{
+  justify-content: center;
+}
+.plus-container{
+/*  margin-left: -50%;*/
+/*  margin-top: 10px;*/
+}
+.container-development{
+  margin-left: -43%;
+}
+
+.conatainer-more{
+  margin-top: 80px;
+}
+.third-container{
+  background-color: #28293E;
+}
+.container-portfolio{
+  padding-top: 3%;
+  color: red;
+}
+.container-latest{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-explore{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  border: 2px solid #3A3C56;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.sofa,.key,.work{
+  display: inline-block;
+  width: 33.3%;
+}
+.container-parents{
+  display: flex;
+  flex-wrap: wrap;
+/*  padding-left: 60px;
+  padding-right: 60px;*/
+  margin-top: 80px;
+}
+.portfolio-item{
+  display: flex;
+}
+.container-laex{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.fourth-container{
+  background-color:#FDF0E9;
+  display: flex;
+
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.container-pires{
+  color: #EF6D58;
+}
+.container-pires{
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+}
+.container-web{
+  font-size: 2rem;
+  color: #391400;
+  padding-top: 7%;
+
+}
+.container-four{
+  padding-left: 5%;
+}
+.container-foto{
+  padding-left: 3%;
+}
+.container-provides{
+  padding-top: 3%;
+}
+
+.container-ability{
+  padding-top: 3%;
+}
+.container-about{
+  font-size: 12px;
+  border: 2px solid#F9E5DA;
+  background-color: #EF6D58;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
